@@ -1,0 +1,97 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.header {
+  width: 100%;
+  background: #0b4e2e;
+  color: #fff;
+  transition: 0.5s all ease;
+  position: sticky;
+  top: 0;
+  height: 7rem;
+  z-index: 100;
+}
+.header.active {
+  background: #fff;
+  color: #000;
+  .btn {
+    color: #000;
+  }
+}
+.logo .text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.logo .dot {
+  color: #1dbf73;
+  font-size: 2rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  .user{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    gap: 10px;
+    img{
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .options{
+        position: absolute;
+        top: 45px;
+        background: #fff;
+        right: 0;
+        padding: 20px;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 200px;
+        .link:not(:last-child){
+            padding-bottom: .5rem;
+            border-bottom: 1px solid #00000039;
+        }
+    }
+  }
+}
+.links span {
+  cursor: pointer;
+  opacity: 0.9;
+  transition: all 0.2s ease-out;
+}
+.links span:hover {
+  opacity: 1;
+}
+.links .btn {
+  border: 1.5px solid #f5f5f5;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 7px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  color: #fff;
+}
+.links .btn:hover {
+  border: 1.5px solid #1dbf73;
+  color: #fff;
+  background: #1dbf73;
+}
+.menu {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #000000c0;
+  font-size: .9rem;
+}
