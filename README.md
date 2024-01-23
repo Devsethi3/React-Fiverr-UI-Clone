@@ -1,6 +1,6 @@
-# ReactFiverr UI Clone
+# React Fiverr UI Clone
 
-Welcome to the ReactFiverr UI Clone repository! This project is a React-based web application designed to replicate the user interface of Fiverr's gigs, add gigs, orders, and single gig pages. The modern UI design aims to capture the essence of the Fiverr platform, providing an immersive and visually appealing experience.
+Welcome to the React Fiverr UI Clone repository! This project is a React-based web application designed to replicate the user interface of Fiverr's gigs, add gigs, orders, and single gig pages. The modern UI design aims to capture the essence of the Fiverr platform, providing an immersive and visually appealing experience.
 
 ## Preview
 
@@ -22,7 +22,7 @@ To run the ReactFiverr UI Clone locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/react-fiverr-ui-clone.git
+   git clone https://github.com/Devsethi3/React-Fiverr-UI-Clone.git
    ```
 
 2. Navigate to the project directory:
